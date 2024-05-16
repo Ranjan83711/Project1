@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI for Anxiety - Personalised Support System</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-purple-200 flex items-center justify-center min-h-screen">
+
+    <div class="bg-white p-10 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-2xl font-bold mb-4 text-center">AI for Anxiety - Personalised Support System</h1>
+        <h2 class="text-xl font-semibold mb-4 text-center">'Ease for Unease'</h2>
+
+        <form id="supportForm" class="space-y-4" onsubmit="submitToGoogleForm(event)">
+            <div>
+                <label class="block text-gray-700">Name</label>
+                <input type="text" id="name" class="w-full mt-1 p-2 border rounded" placeholder="Enter your name">
+            </div>
+
+            <div>
+                <label class="block text-gray-700">Contact No.</label>
+                <input type="text" id="contact" class="w-full mt-1 p-2 border rounded" placeholder="Enter your contact number">
+            </div>
+
+            <div>
+                <label class="block text-gray-700">Age</label>
+                <input type="number" id="age" class="w-full mt-1 p-2 border rounded" placeholder="Enter your age">
+            </div>
+
+            <div>
+                <label class="block text-gray-700">Gender</label>
+                <select id="gender" class="w-full mt-1 p-2 border rounded">
+                    <option value="">Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="bg-gradient-to-r from-green-400 to-blue-500 text-white py-2 px-4 rounded-full hover:from-green-500 hover:to-blue-600 transition duration-300 ease-in-out shadow-lg transform hover:scale-105">
+                   <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2yHpmznr0iU-gBPJaRPNgsu5y0g3FMYcrNcVVqjDXGWvvDQ/viewform?pli=1"> Take Questionnaire</a>
+                </button>
+            </div>
+        </form>
+
+       
+    </div>
+
+   
+
+</body>
+</html>
